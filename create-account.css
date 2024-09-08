@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/nice-white-with-bokeh-light-effect_1017-25616.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701561600&semt=ais");
+  background-size: cover;
+}
+.middle-body{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/364/716/950/sky-blue-blur-gradation-wallpaper-preview.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,
+   -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 80px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.place-holder {
+  font-size: 15px;
+  border-radius: 8px;
+  margin: 3px;
+  border: 1px solid gray;
+  width: 220px;
+  padding: 7px;
+}
+
+.place-name {
+  font-size : 17px;
+}
+
+.already-login {
+  font-size: 17px;
+}
+
+.login-span {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.create-button {
+  padding: 8px;
+  width: 150px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor:pointer;
+  font-size: 15px;;
+}
+.create-button:active {
+  transform: scale(0.9);
+}
+
+.pass-no-match {
+  color: red;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.js-input-password {
+  margin-bottom: 16px;
+}
+
+
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.far, .fa-eye-slash {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 12px;
+}
+
+.name-exist {
+  margin-top:5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  color: red;
+}
+.js-valid-create {
+  color: green;
+  font-size: 17px;
+}

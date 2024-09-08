@@ -1,0 +1,79 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/nice-white-with-bokeh-light-effect_1017-25616.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701561600&semt=ais");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle-body{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: skyblue;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/364/716/950/sky-blue-blur-gradation-wallpaper-preview.jpg");
+  background-size: cover;
+  padding: 80px;
+  border-radius: 20px;
+  align-items: center;
+}
+.place-holder {
+  font-size: 15px;
+  border-radius: 8px;
+  margin: 3px;
+  border: 1px solid gray;
+  width: 230px;
+  padding: 7px;
+}
+
+.place-name {
+  font-size : 17px;
+}
+
+.create-new {
+  font-size: 17px;
+  width: 250px;
+  color:rgb(19, 18, 18);
+}
+
+.create-account-span {
+  color: blue;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.login-button {
+  padding: 5px;
+  width: 100px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+.login-button:active {
+  transform: scale(0.9);
+}
+
+.user-pass-div {
+  align-items: center;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.not-valid {
+  color: red;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: -7px;
+}
+
+.far {
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 220px;
+}

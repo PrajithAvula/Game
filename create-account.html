@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Create Account
+    </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href ="create-account.css">
+
+<script src = "Create-account.js">     </script>
+
+  </head>
+  <body>
+    <div class="middle-body">
+      <form>
+        <label class="place-name"> User Name</label> <br>
+        <input class="place-holder js-input-name" placeholder="Enter Username" type="text">
+         <br> 
+         <p class="js-name-exist name-exist"></p> 
+         <br>
+
+        <label class="place-name"> Enter password</label> <br>
+        <div class="password-container">
+          <input class="place-holder js-input-password" placeholder="Enter password" type="password" > 
+          <i class="far fa-eye" id="togglePassword" onclick="togglePassword('js-input-password')"></i>
+        </div>
+        <label class="place-name"> Confirm password</label> <br>
+        <div class="password-container">
+          <input class="place-holder js-confirm-password" placeholder = "Confirm password" type="password"> 
+          <i class="far fa-eye" id="toggleConfirmPassword" onclick="togglePassword('js-confirm-password')"></i>
+        </div>
+        
+       
+        <p class="js-no-match pass-no-match js-valid-create"> </p>
+        <p class="already-login js-to-login" onclick="redirectToLoginPage();"> Already have an account? <span class="login-span"> Log in </span></p>
+      </form>
+      <button class="create-button js-create-button" onclick ="pushValues()"> Create Account </button>
+    </div>
+    
+  </body>
+  
+</html>

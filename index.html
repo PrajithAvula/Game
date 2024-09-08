@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Web Page</title>
+    <style>
+
+      body {
+        background-image: url("https://img.freepik.com/free-vector/nice-white-with-bokeh-light-effect_1017-25616.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701561600&semt=ais");
+        height: 100vh;
+        background-size: cover;
+      }
+      
+      .main-body-index {
+        width: 1000px;
+        position: absolute;
+        top: 8%;
+        left: 20%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .about-intro, .about-project {
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 15px;
+      }
+
+      .project-intro {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .clickhere {
+        text-align: center;
+        font-size: 20px;;
+      }
+
+      .edit-text {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .skill-set {
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      
+    </style>
+</head>
+<body>
+  <div class="main-body-index">
+    <div class="clickhere js-entering"> Click <span class="edit-text" onclick="takeForward()"> here </span> to Enter into Web Page </div>
+    <div class="about-intro">
+      <p>Hello there! I'm Jagadeesh Udatha, a passionate and aspiring full-stack developer eager to kick-start my career in the tech industry. As a recent graduate with a strong foundation in full-stack development, I am actively seeking opportunities to contribute my skills and learn from experienced professionals.</p>
+
+        
+        <ul>
+            <li><strong>Full-Stack Expertise:</strong> I bring a comprehensive skill set in both front-end and back-end technologies.</li>
+            <li><strong>Fresh Perspective:</strong> As a recent graduate, I bring a fresh perspective and a hunger for learning.</li>
+            <li> <span class="skill-set">Technical Skills: </span> Java, Python, HTML, CSS, JavaScript, SQL</li>
+
+            <li><strong>Passion for Problem-Solving:</strong> I thrive on solving complex problems and enjoy the challenge of creating elegant solutions.</li>
+        </ul>
+
+        <ul>
+            <li><strong>Project Showcase:</strong> Explore my portfolio to see a collection of projects that showcase my technical skills and creativity.</li>
+            <li><strong>Continuous Learning:</strong> I am committed to continuous learning and professional development.</li>
+        </ul>
+
+        <h2>Let's Connect!</h2>
+        <p>I am actively seeking opportunities to contribute to innovative projects and collaborate with the organizations to showcase my skills.</p>
+        <p> Linkedin Profile: <a href="https://www.linkedin.com/in/jagadeesh-udatha-109935244/"> Click here </a></p>
+        <p>Thank you for visiting my portfolio, and I look forward to the opportunity to discuss how my skills can benefit your organization.</p>
+   
+
+    </div>
+    <div class="about-project">
+      <p class="project-intro">Things to look out for in this project</p>
+    
+      <p> 
+        Welcome to my game page, where I've designed a seamless user experience for gaming enthusiasts. On this platform, I've crafted both a user-friendly create account page and a secure login page that ensures access only with valid credentials. Once logged in, you'll discover a variety of engaging single-player games.Challenge the computer in exciting games that promise an entertaining and luck-driven experience. Dive into the world of gaming, where fun and challenge await!</p>
+    </div>
+        
+  </div>
+  <script> 
+    function takeForward() {
+      document.querySelector('.js-entering').innerHTML = "Entering into the Web Page...";
+      setTimeout(() => {
+        window.location.href = "create-account.html";
+      },1000);
+      
+    }
+
+  </script>
+    
+
+</body>
+</html>

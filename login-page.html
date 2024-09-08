@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Login Page </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel = "stylesheet" href="login-page.css">
+    <script  src = "Create-account.js"></script>
+
+  </head>
+    <body > 
+      <div class="middle-body">
+        <form>
+          <div class="user-pass-div">
+            <div>
+              <label class="place-name"> User Name</label> <br>
+              <input class="place-holder js-username" placeholder="Enter Username" type="text"> 
+            </div>
+
+            
+            <div>  
+              <label class="place-name"> Enter password</label> <br>
+              <input class="place-holder js-password" placeholder="Enter password" type="password"> <br> <br>
+              <i class="far fa-eye" id="togglePassword" onclick="togglePassword1('js-password')"></i>
+            </div>
+          </div>
+          <p class="not-valid js-not-valid"></p>
+          <p class="create-new js-to-create" onclick="redirectToCreateAccountPage()"> If you are new here. <span class="create-account-span">Create Account</span></p>
+        </form>
+        <button class="login-button js-login" onclick="enterMainPage();"> Login </button>
+          
+      </div>
+      
+    </body>
+   
+    
+  
+</html>
